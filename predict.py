@@ -4,7 +4,7 @@ import numpy as np
 
 mlflow.set_tracking_uri("http://127.0.0.1:5000")
 
-model = mlflow.pyfunc.load_model("models:/wine-classifier/1")
+model = mlflow.pyfunc.load_model("models:/wine-classifier/3")
 
 sample = np.array([[
     13.2, 1.78, 2.14, 11.2, 100,
